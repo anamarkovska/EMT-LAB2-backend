@@ -12,7 +12,7 @@ import emt.service.CategoryService;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://emt-library-193025.herokuapp.com/")
+@CrossOrigin(origins = "https://library-emt-lab2-193025.herokuapp.com/")
 @RequestMapping("/api/categories")
 public class CategoryRestController {
     private final CategoryService categoryService;
